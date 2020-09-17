@@ -19,7 +19,7 @@ import plotly.express as px
 # import and cache the data
 @st.cache(persist=True, suppress_st_warning=True)
 def load_data():
-    df = pd.read_csv('/Users/raphaele/Documents/Py/ict_data/ict_data.csv')
+    df = pd.read_csv('ict_data.csv')
     return df
 
 # main function
